@@ -11,7 +11,7 @@ function HomeProducts() {
 
     useEffect(() => {
         const fetchProducts = async () => {
-            const response = await fetch ('http://10.0.2.2:19000/api/hulma');
+            const response = await fetch ('https://b30f-2400-1a00-b020-924e-5cbf-4afe-ce63-d429.in.ngrok.io/api/hulma');
             const json = await response.json();
             if(response.ok) {
                 setProducts(json);

@@ -1,5 +1,5 @@
 {
-  "proxy": "http://192.168.1.77:19000",
+  "proxy": "https://b30f-2400-1a00-b020-924e-5cbf-4afe-ce63-d429.in.ngrok.io ",
   "name": "hulma",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
